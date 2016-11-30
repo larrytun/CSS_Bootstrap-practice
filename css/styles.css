@@ -1,10 +1,15 @@
 .box1 {
-  padding: 10px;
-}
+  border-radius: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);}
 .box-container {
   margin-left: 5%;
 }
 .box {
+  text-align: center;
+  padding: 2%;
+  margin-bottom: 1%;
   width: 45%;
   height: 40px;
   background-color: #DA7E25;
@@ -25,9 +30,11 @@
 
 body {
   background-image: url("../img/background.jpg");
+  background-size: cover;
   color: white;
   margin: 0;
   padding: 0;
+  font-family: 'Arimo', sans-serif;
 }
 
 a {
@@ -36,19 +43,27 @@ a {
 
 select {
   color: black;
+  margin-bottom: 10px;
 }
-
+footer {
+  width: 100%;
+  height: 40vh;
+  background-color: #351506;
+}
+p {
+  color: #CB7421;
+}
 .navbar {
   padding: 1em;
   background-color: #2F1B0C;
   border-radius: 0px;
   border: none;
+  margin-bottom: 4em;
 }
 
 .behind-nav {
   height: 11vh;
-  width: 100%;
-  background-color: red;
+  width: 100vw;
   background-color: #2F1B0C;
 }
 
@@ -75,5 +90,41 @@ select {
 }
 
 .posters {
-  width: 37%;
+  width: 30%;
+}
+
+.movies {
+  /*border-bottom: 1px solid rgba(255, 255, 255, 0.3);*/
+  padding-bottom: 40px;
+}
+
+.titles {
+  font-size: 24px;
+  font-family: 'Arimo', sans-serif;
+  margin-bottom: 20px;
+}
+
+.movie-info {
+  font-size: 17px;
+  font-family: 'Arvo', serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.trailer {
+  margin-bottom: 20px;
+  text-align: center;
+  padding: 7px;
+}
+
+.trailer-text {
+  font-family: 'Arvo', serif;
+  font-size: 19px;
+  margin: auto;
+}
+
+.top-movie {
+  width: 100%;
+  height: 5vh;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }

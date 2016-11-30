@@ -9,9 +9,11 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Avro|Arimo" rel="stylesheet">
+
 </head>
 <body>
-  <div class="behind-nav">
+  <div class="behind-nav" />
     <div class="container">
       <!-- navbar -->
       <div class="navbar" role="navigation">
@@ -34,14 +36,16 @@
           </ul>
         </div>
       </div>
+
       <!-- end of navbar -->
       <div class="row">
-        <div class="col-sm-4 hidden-xs">
+        <div class="col-sm-4">
           <div class="marquee-panel">
-            <img class="marquee" src="img/marquee.png" alt="" />
+            <img class="marquee hidden-xs" src="img/marquee.png" alt="" />
           </div>
         </div>
-        <div class="col-sm-8">
+
+        <div class="col-sm-8 col-xs-12 pull-right">
           <div class="ticket-panel panel panel-default">
             <div class="panel-body">
               <div class="col-sm-6">
@@ -58,15 +62,15 @@
                   </p>
                 </div>
                 <div class="col-sm-6">
-                  <h4>FanFantastic Beasts and Where to Find Them (PG-13)</h4>
+                  <h4>Fantastic Beasts and Where to Find Them (PG-13)</h4>
                   <p>Running time 2:20</p>
                   <div class="panel panel-default box1">
                     <div class="box-container">
-                      <div class="box"></div>
-                      <div class="box"></div>
+                      <div class="box">3:00&nbsp;PM</div>
+                      <div class="box">7:00&nbsp;PM</div>
                       <br>
-                      <div class="box"></div>
-                      <div class="box"></div>
+                      <div class="box">10:40&nbsp;PM</div>
+                      <div class="box">12:00&nbsp;AM</div>
                     </div>
                   </div>
                   <p><i>Please be patient while we process your order.</i></p>
@@ -74,27 +78,93 @@
               </div>
             </div>
           </div>
-          <div class="col-sm-7">
+          <div class="movies col-sm-8 pull-right">
             <h2>Now Playing</h2>
-            <div class="col-xs-7 pull-right">
-              <h4>Fantastic Beasts and Where to Find Them (PG-13)</h4>
+            <div class="col-xs-8 pull-right">
+              <h4 class="titles">Fantastic Beasts and Where to Find Them (PG-13)</h4>
+              <div class="box trailer"><h5 class="trailer-text">View Trailer</div>
+              <a class="movie-info" href="#">http://www.imdb.com/title/tt3183660/</a>
+              <p class="movie-info">The adventures of writer Newt Scamander in New York's secret community of witches and wizards seventy years before Harry Potter reads his book in school.</p>
             </div>
             <img class="posters" src="img/beasts.jpeg" alt="" />
-          </div>
+            <div class="top-movie"></div>
+
+
+            <h2>Now Playing</h2>
+            <div class="col-xs-8 pull-right">
+              <h4 class="titles">Rogue One: A Star Wars Story</h4>
+              <div class="box trailer"><h5 class="trailer-text">View Trailer</div>
+              <a class="movie-info" href="#">http://www.imdb.com/title/tt3748528/</a>
+              <p class="movie-info">The Rebellion makes a risky move to steal the plans to the Death Star, setting up the epic saga to follow.</p>
+
+            </div>
+            <img class="posters" src="img/star-wars.jpg" alt="" />
+            <div class="top-movie"></div>
+            <div class="content">
+              <h2>Prices</h2>
+              <p>$9.50 per ticket – Adults 5 p.m. and later</p>
+              <p>$8 per ticket – Adults before 5 p.m.</p>
+              <p>$6.50 per ticket – children 12 years old and under</p>
+                 <i><li>All shows are 21 and over; minors are welcome
+                if accompanied by a parent or guardian.</li>
+                <li>$1 online purchase fee per ticket</li></i>
+                <h2>Door Times</h2>
+                <p>Doors open 30 minutes before the first matinee, 45 minutes before the second matinee, 60 minutes before the 7 p.m., and 30 minutes before the late show. Keep in mind, food is delivered only to the balcony seats. Just order at concessions, grab a seat in the balcony, and we'll bring it to you!</p>
+                <div class="top-movie visible-xs"></div>
+            </div>
+            </div>
+        <div class="col-sm-4 pull-left">
+
+          <h3>About the Bagdad</h3>
+          <p>Come experience our new 50% larger screen, 20,000-watt surround sound, state-of-the-art digital projector and new luxurious rocker seating at Portland’s Bagdad Theater!</p>
+          <h3>Accommodations</h3>
+          <p>Our theater offers a quality entertainment experience for deaf, hard of hearing and vision impaired guests. Our movie showings are closed captioned, and we offer individual Captiview closed caption devices that sit in your seat’s cupholder. In addition, we offer two types of headphones: hearing impaired headphones that amplify the dialogue, or visual impaired headphones that describe the scenery and action. Just inquire before showtime to use any of these devices.</p>
+          <h3>Getting to the Bagdad</h3>
+          <div class="map"></div>
+          <p>The Bagdad Theater is located in the heart of the Hawthorne District. Look for the large marquee sign!</p>
+
         </div>
 
-        <div class="row">
-          <div class="col-sm-4">
-            <h3>About the Bagdad</h3>
-            <p>Come experience our new 50% larger screen, 20,000-watt surround sound, state-of-the-art digital projector and new luxurious rocker seating at Portland’s Bagdad Theater!</p>
-            <h3>Accommodations</h3>
-            <p>Our theater offers a quality entertainment experience for deaf, hard of hearing and vision impaired guests. Our movie showings are closed captioned, and we offer individual Captiview closed caption devices that sit in your seat’s cupholder. In addition, we offer two types of headphones: hearing impaired headphones that amplify the dialogue, or visual impaired headphones that describe the scenery and action. Just inquire before showtime to use any of these devices.</p>
-            <h3>Getting to the Bagdad</h3>
-            <div class="map"></div>
-          </div>
+
+
         </div>
       </div>
-    </div>
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <h3>McMenamins Bagdad Theater</h3>
+                <p>3702 SE Hawthorne Blvd</p>
+                <p>Portland, OR 97214</p>
+                <p>(503) 467-7521</p>
+            </div>
+            <div class="col-sm-4">
+              <h3>McMenamins Bagdad</h3>
+
+              <p>About the Bagdad</p>
+              <p>Bagdad Pub</p>
+              <p>Backstage Bar</p>
+
+              <p>McMenamins Home</p>
+
+            </div>
+            <div class="col-sm-4">
+              <h3>Other McMenamins Movie Theaters</h3>
+
+              <p>Edgefield Power Station Theater</p>
+              <p>Grand Lodge Theater</p>
+              <p>Kennedy School Theater</p>
+              <p>Mission Theater</p>
+              <p>Old St. Francis Theater</p>
+              <p>Olympic Club Theater</p>
+              <p>St. Johns Theater</p>
+
+              <p>View all McMenamins Theaters</<p>p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
