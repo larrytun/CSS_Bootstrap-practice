@@ -1,0 +1,79 @@
+.box1 {
+  padding: 10px;
+}
+.box-container {
+  margin-left: 5%;
+}
+.box {
+  width: 45%;
+  height: 40px;
+  background-color: #DA7E25;
+  border-bottom: solid 5px #834C16;
+  display: inline-block;
+}
+
+.dropdown {
+  width: 100%;
+  height: 40px;
+}
+
+.ticket-panel {
+  border-radius: 0px;
+  background-color:rgba(0, 0, 0, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #DA7E25;
+}
+
+select {
+  color: black;
+}
+
+.navbar {
+  padding: 1em;
+  background-color: #2F1B0C;
+  border-radius: 0px;
+  border: none;
+}
+
+.behind-nav {
+  height: 11vh;
+  width: 100%;
+  background-color: red;
+  background-color: #2F1B0C;
+}
+
+.marquee-panel {
+  background-color:rgba(0, 0, 0, 0.5);
+  width: 90%;
+  margin-left: 40px;
+}
+
+.marquee {
+  width: 90%;
+}
+
+.map {
+  width: 100%;
+  background-image: url("../img/map.png");
+  background-size: cover;
+}
+
+.map:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.posters {
+  width: 37%;
+}
