@@ -16,10 +16,60 @@ html, body {
   margin: 0;
 }
 
+
+nav {
+   background-color: white;
+   width: 100%;
+   height: 8vh;
+
+}
 .image {
   width: 100%;
   height: 950px;
   background-image: url('../img/food3.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.featured {
+  height: 25vh;
+}
+
+.test {
+  height: 2000px;
+}
+
+.house {
+  margin-right: 10vw;
+}
+
+.rover {
+  height: 43vh;
+  background-color: #EFEFEF;
+}
+
+.popcorn {
+  height: 43vh;
+  background-color: #F6F6F6;
+}
+
+.telescope {
+  height: 43vh;
+  background-color: #EFEFEF;
+}
+
+.tent {
+  height: 43vh;
+  background-color: #F6F6F6;
+}
+
+.space {
+  height: 43vh;
+  background-image: url("../img/rocket.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.images {
+  height: 100%;
 }
