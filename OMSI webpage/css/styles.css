@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+.image {
+  width: 100%;
+  height: 950px;
+  background-image: url('../img/food3.jpg');
+  background-size: cover;
+  background-position: center;
+}
